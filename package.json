@@ -1,0 +1,36 @@
+{
+  "name": "chat-app-redis",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install && bower install && node ./bin/www",
+    "generate-infos": "node ./test/createInfoFile.js",
+    "test": "node ./test/main.js"
+  },
+  "dependencies": {
+    "async": "^2.4.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.8",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "jsonfile": "^3.0.0",
+    "lodash": "^4.17.4",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "redis": "^2.7.1",
+    "sequelize": "^3.30.4",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "xss": "^0.3.3"
+  }
+}
